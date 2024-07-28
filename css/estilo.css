@@ -1,0 +1,302 @@
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "roboto";
+}
+
+body h2 {
+    font-family: "lilita one";
+    font-weight: normal;
+}
+
+nav {
+    background-color: rgb(0, 0, 0, 1);
+    width: 100vw;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    column-gap: 5rem;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-family: "lilita one";
+    font-size: 1.5rem;
+}
+
+nav ul li a:hover {
+    color: orange;
+    transition: 0.5s;
+}
+
+header {
+    background-image: url("../imagens/logo/brawl_stars_burger_logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 25rem;
+    margin-top: 6rem;
+}
+
+.quemsomos {
+    background-image: url("../imagens/background/background1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height:75.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-margin-top: 4rem;
+}
+
+.quemsomos div {
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+    width: 55rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 5rem;
+    padding: 3rem;
+}
+
+.quemsomos div h2 {
+    margin: 0 0 3rem 0;
+    font-family: "lilita one";
+}
+
+.burgers {
+    background-image: url("../imagens/background/background2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height:75.5rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-margin-top: 4rem;
+}
+
+.divcontainer {
+    width: 130rem;
+    height: 68rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+
+.produtoburgertitulo {
+    background-image: url("../imagens/banners/burger_banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 130rem;
+    height: 12rem;
+    border-radius: 1rem;
+}
+
+.produtosdiv {
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 130rem;
+    height: 55rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.produtodiv {
+    background-color: rgb(0, 0, 0);
+    width: 40rem;
+    height: 25rem;
+    border-radius: 2rem;
+    border: 1px solid gray;
+}
+
+.produtoinfo {
+    width: 100%;
+    height: 18rem;
+    border-radius: 2rem;
+    display: flex;
+}
+
+.produtodescricao {
+    width: 60%;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1rem;
+    text-align: center;
+    border-radius: 2rem;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0rem 1rem;
+}
+
+.produtoimg {
+    width: 40%;
+    height: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid gray;
+}
+
+.produtoimg img {
+    width: 90%;
+}
+
+.produtopreco {
+    width: 100%;
+    height: 7rem;
+    border-top: 1px solid gray;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bebidas {
+    background-image: url("../imagens/background/background3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height:75.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-margin-top: 4rem;
+}
+
+.produtobebidastitulo {
+    background-image: url("../imagens/banners/bebidas_banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 130rem;
+    height: 12rem;
+    border-radius: 1rem;
+}
+
+.porcoes {
+    background-image: url("../imagens/background/background4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height:75.5rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-margin-top: 4rem;
+}
+
+.produtoporcoestitulo {
+    background-image: url("../imagens/banners/porcoes_banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 130rem;
+    height: 12rem;
+    border-radius: 1rem;
+}
+
+.sobremesas {
+    background-image: url("../imagens/background/background5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height:75.5rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-margin-top: 4rem;
+}
+
+.produtosobremesastitulo {
+    background-image: url("../imagens/banners/sobremesas_banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 130rem;
+    height: 12rem;
+    border-radius: 1rem;
+}
+
+footer {
+    background-color: rgb(20, 20, 20);
+    width: 100vw;
+    height: 25rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    row-gap: 1rem;
+    text-align: center;
+}
+
+.divfooter1 {
+    width: 100vw;
+    height: 12em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1rem;
+    font-size: 1.5rem;
+}
+
+.divfooter1 h2 {
+    font-family: "lilita one";
+    font-weight: normal;
+}
+
+.divfooter2 {
+    width: 100vw;
+    height: 5em;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+    font-size: 1.2rem;
+}
