@@ -20,5 +20,5 @@ O site ainda não está responsivo.
 ## Como acessar
 Basta clicar no link abaixo para acessar:
 
-Link: https://lucianonobrega.github.io/Brawl-Stars-Burger---Site-Tematico-de-Restaurante/
+Link: https://lucianonobrega.github.io/Brawl-Stars-Burger---Site-Tematico-de-Hamburgueria/
 
